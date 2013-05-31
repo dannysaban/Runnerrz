@@ -243,8 +243,8 @@ if($get > 0 ){
 	//exit();
 	$name = $user_profile["name"];
 	$get = array("users" => array(array("name" => $name , "id" => $user)) );
-	$json = json_encode($get);
-	File::put('application/libraries/data.txt', $json);
+	$myJson = json_encode($get);
+	File::put('application/libraries/data.txt', $myJson);
 	
 	
 	
