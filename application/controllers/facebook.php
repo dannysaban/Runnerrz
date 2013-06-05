@@ -37,7 +37,7 @@ class Facebook_Controller extends Base_Controller {
 		
 		
 		//$call = $_REQUEST['callback'];
-		//return $call.Response::json($get);
+		//return Response::json($get);
 		return View::make('facebook.me');
 		
 		//return Response::json($get);
