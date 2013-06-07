@@ -51,6 +51,7 @@ Route::get('nike', 'nike@index');
 Route::get('users', 'users@index');
 Route::get('all', 'users@all');
 Route::get('location', 'users@location');
+Route::get('gender', 'users@gender');
 
 
 //Route::get('/', function (){	
